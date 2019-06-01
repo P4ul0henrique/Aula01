@@ -1,6 +1,7 @@
 /* estilo em cascata */
 *{
     font-family: 'Roboto', sans-serif;
+    
 }
 header{
     display: flex;
@@ -8,7 +9,7 @@ header{
 }
 
 .header-top{
-        background-color: #00008B;
+        background-color: rgb(31, 29, 29);
         color: white;
         display: flex;
         justify-content: space-around;
@@ -43,4 +44,93 @@ header{
 .header-top span{
     display: flex;
     align-items: center;
+}
+
+.header h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    text-shadow: 1px 1px 3px rgb(136, 136, 136);
+}
+
+.header-botom{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    background-color: rgba(255, 255, 255, 0.555);
+    box-shadow: 0px 0px 7px #000000;
+    align-items: center;
+}
+
+.navigation a{
+    color: black;
+    text-decoration: none;
+    padding: 0 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.wrapper-top img{
+    width: 100%;
+    height: auto;
+    
+}
+
+.wrapper-midle{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+
+.middle-left .title{
+    line-height: 35px;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    padding-bottom: 20px;
+    font-size: 32px;
+}
+
+.middle-left .title span:after{
+    content: "";
+    width:  50px;
+    height: 2px;
+    background-color:blue;
+    display:flex;
+    margin-top: 10px;
+}
+
+.middle-left .title span{
+    border-bottom: 0.1px solid #ccc;
+}
+
+.middle-left{
+    margin-right: 30px;
+}
+
+.middle-left .text{
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.middle-left a{
+    border: 1px solid #000;
+    color: #000;
+    padding: 15px 0px;
+    display: flex;
+    width: 150px;
+    margin-top: 20px;
+    justify-content: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.middle-left a:hover{
+    color:white;
+    background-color: #000; 
+    border: 1px solid white;
+    outline: 2px solid black;
 }
